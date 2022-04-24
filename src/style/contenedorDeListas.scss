@@ -1,0 +1,28 @@
+.listConteiner{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 10px solid rgb(211, 114, 114);
+    background-color: rgb(8, 12, 60) ;
+    color: aliceblue;
+    .conteinerBestMovies{
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        margin-left: 7em;
+        padding-left: 5em;
+        .conteinerTitle{    
+            background-color: rgb(8, 10, 52);
+            color: aliceblue;
+            text-align: center;
+            .conteinerElementsTitle{
+                width: 30em;
+                height: auto;
+            }
+        }
+    }
+
+}
+
+
+

@@ -1,0 +1,14 @@
+.cardsConteiner{
+    display: grid;
+    width:100%;
+    height: auto;
+    
+   
+}
+.cards{
+    grid-row: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+ 
+   gap: 3em;
+}
+

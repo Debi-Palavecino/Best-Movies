@@ -1,0 +1,24 @@
+.menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(17, 17, 110);
+    
+}
+.menu-list{
+    flex-wrap: wrap;
+
+ 
+}.linksConteiner{
+    background-color:rgb(17, 17, 110) ;
+    width: auto;
+    height: 2em;
+    margin-left: 1em;
+    border: 2px solid rgb(8, 8, 48) ;
+    border-radius: 5px;
+    .linksColorLetras{
+        color: #FFF;
+        font-style: italic;
+        text-decoration: none;
+    }
+}
